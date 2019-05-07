@@ -1,0 +1,37 @@
+.time-ruler-container {
+	width: 500px;position: relative;
+	padding-top: 18px;
+}
+.time-ruler-container .ruler-echart {
+	width: 500px;
+	background: #f7f7f7;
+	height:45px;
+}
+.time-ruler-container .timer-pointer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 60px;
+	text-align: center;
+	color:#062c80;
+	font-size: 18px;
+}
+.time-ruler-container .timer-pointer.conflict {
+	color:#F66900;
+}
+.time-ruler-container .time-line {
+	position: absolute;
+	height: 36px;
+	width: 2px;
+	background: #062c80;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	border-radius: 18px;
+}
+.time-ruler-container .time-line.conflict {
+	background: #F66900;
+}
